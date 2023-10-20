@@ -3,7 +3,6 @@ class TreeNode:
         self.value = value
         self.left = None
         self.right = None
-
 def show_tree(root):
     if root:
         show_tree(root.left)
