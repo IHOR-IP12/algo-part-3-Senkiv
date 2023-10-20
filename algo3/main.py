@@ -8,6 +8,7 @@ def show_tree(root):
         show_tree(root.left)
         print(root.value, end="\t")
         show_tree(root.right)
+        
 def invert_tree(root):
     if root:
         left = invert_tree(root.left)
